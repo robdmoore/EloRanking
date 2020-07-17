@@ -9,7 +9,7 @@ namespace DDDPerthELORatingSpike
         public string PartitionKey { get; set; }
         public string Year => PartitionKey;
         public string RowKey { get; set; }
-        public string SubmitterId => RowKey;
+        public string SubmissionId => RowKey;
         public DateTimeOffset Timestamp { get; set; }
 
         public string ExternalId { get; set; }

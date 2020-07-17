@@ -10,7 +10,7 @@ using System.Collections.Generic;
  * @license Creative Commons Attribution 4.0 International License
  */
 
-namespace Rating
+namespace DDDPerthELORatingSpike
 {
     public class Rating
     {
@@ -22,10 +22,10 @@ namespace Rating
          * For now set to 15 for everyone.
          */
 
-        private const int KFACTOR = 15;
+        private const int KFACTOR = 10;
 
         public const double WIN = 1;
-        public const double LOOSE = 0;
+        public const double LOSE = 0;
         public const double DRAW = 0.5;
 
         protected double _ratingA;
